@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="website icon" type="png" href=".\Asset\images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kelvin's Page</title>
+  </head>
+  <body style="background-color: #0a192f;">
+    <div class="container">
+      <!-- nav-bar -->
+      <div class="">
+        <!-- desktop&tab nav-bar -->
+        <div class="hidden md:flex justify-end bg-[#0e213e] p-2 sticky top-0">
+          <ul class="flex gap-6 mr-5">
+            <li
+              class="text-[#F7F0F5] font-black p-2 rounded cursor-pointer hover:bg-[#1D3A44] duration-500"
+            >
+              <a href="#about">ABOUT</a>
+            </li>
+            <li
+              class="text-[#F7F0F5] font-black p-2 rounded cursor-pointer hover:bg-[#1D3A44] duration-500"
+            >
+            <a href="https://resume.io/r/1tnUpJEDZ">RESUME</a>
+            </li>
+            <li
+              class="text-[#F7F0F5] font-black p-2 rounded cursor-pointer hover:bg-[#1D3A44] duration-500"
+            >
+            <a href="">SKILLS</a>
+            </li>
+            <li
+              class="text-[#F7F0F5] font-black p-2 rounded cursor-pointer hover:bg-[#1D3A44] duration-500"
+            >
+            <a href="">PROJECTS</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+        <!-- mobile nav-bar -->
+        <div class="md:hidden">
+          <div id="menu">
+         <a href="https://resume.io/r/1tnUpJEDZ" class="bg-[#0e213e] text-[#fffbfc] p-2 m-2 drop-shadow-lg rounded" >RESUME</a>
+          </div>
+
+
+
+          <!-- pop up on click of mobile menu button -->
+          <div class="hidden" id="list">
+            <div class="flex grid-cols-1 gap-3 bg-[#00171F] ">
+              <ul>
+                <li class=" rounded-lg p-3 font-black bg-[#00171F] text-[#F7F0F5] drop-shadow-lg w-64 my-1 ">ABOUT</li>
+                <li class=" rounded-lg p-3 font-black bg-[#00171F] text-[#F7F0F5] drop-shadow-lg w-64 my-1 ">RESUME</li>
+                <li class=" rounded-lg p-3 font-black bg-[#00171F] text-[#F7F0F5] drop-shadow-lg w-64 my-1 ">SKILLS</li>
+                <li class=" rounded-lg p-3 font-black bg-[#00171F] text-[#F7F0F5] drop-shadow-lg w-64 my-1 ">PROJECTS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- nav-bar ends here -->
+    </div>
+
+
+
+    <!-- intrdoction -->
+    <!-- <div class="flex items-center justify-center">
+      <span class=" flex justify-center text-6xl text-[#64ffda] mt-20">WELCOME TO MY PORTFOLIO</span>
+    </div> -->
+    <!-- End of introduction -->
+
+
+
+    <!-- my-name -->
+    <div class="flex items-center justify-center mt-20">
+      <p id="demo" class="text-2xl md:text-6xl font-black text-[#64ffda] "><p class="text-6xl text-[#64ffda]" id="cursor">|</p></p> 
+    </div>
+    
+    <!-- end of name -->
+<!-- about -->
+<div class="md:mt-20" id="about">
+<p class="text-[#fffbfc] md:text-xl text-center md:px-64">
+ I'm a fullstack webdeveloper.  Experienced web developer, skilled in HTML, CSS, JavaScript,Tailwind-css,PHP and several frameworks. Dedicated to creating high-quality, user-friendly websites. Committed to staying current with industry trends. Proven team player delivering successful projects.
+</p>
+</div>
+<!-- end of about -->
+
+<!-- SKILLS -->
+<span class=" flex justify-center text-6xl text-[#64ffda] my-20">SKILLS</span>
+<div class="skill" id="#skill">
+<ul class="md:flex justify-center gap-5 mt-5">
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='html5' type='logo'color='#fffbfc' size='100px'animation='tada-hover' ></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='css3' type='logo' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='tailwind-css' type='logo' color='#fffbfc' size='100px' animation='tada-hover'></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon type='logo' name='nodejs' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='javascript' type='logo' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='php' type='logo' color='#fffbfc' size='100px' animation='tada-hover'></li>
+</ul>
+</div>
+
+<!-- projects -->
+<span class=" flex justify-center text-6xl text-[#64ffda] my-20">PROJECTS</span>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+  <img src="./Asset/images/the sad cloud.png" alt="sad cloud">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./Asset/images/betterAR.jpg" alt="better">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+   <img src="./Asset/images/cute404.png" alt="cute">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<footer class="flex justify-center bg-[#0e213e] p-2 mt-52  ">
+  <p class="flex jusify-center text-white ">Designed by KELVIN &copy;2023</p>
+</footer>
+
+
+
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/tailwind.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>

@@ -98,37 +98,43 @@
 <span class=" flex justify-center text-6xl text-[#64ffda] my-20">SKILLS</span>
 <div class="skill" id="skill">
 <ul class="md:flex justify-center gap-5 mt-5">
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='html5' type='logo'color='#fffbfc' size='100px'animation='tada-hover' ></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='css3' type='logo' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='tailwind-css' type='logo' color='#fffbfc' size='100px' animation='tada-hover'></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon type='logo' name='nodejs' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='javascript' type='logo' color='#fffbfc' size='100px'animation='tada-hover'></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='php' type='logo' color='#fffbfc' size='100px' animation='tada-hover'></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='html5' type='logo'color='#fffbfc' size='100px'animation='tada-hover'  data-aos="fade-up" onclick="what(HTML5)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='css3' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(CSS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='tailwind-css' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(TAILWIND-CSS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon type='logo' name='nodejs' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(Node)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='javascript' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(JS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='php' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(PHP)"></li>
 </ul>
 </div>
 
 <!-- projects -->
-<span id="project" class=" flex justify-center text-6xl text-[#64ffda] my-20">PROJECTS</span>
+<span id="project" class=" flex justify-center text-6xl text-[#64ffda] my-20" data-aos="fade-in" data-aos-duration="5000">PROJECTS</span>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-  <img src="./Asset/images/the sad cloud.png" alt="sad cloud">
-    <div class="text">Caption Text</div>
+    <img src="./Asset/images/Weezy tech sign up.png" alt="error">
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">WEEZY TECH SIGN UP PAGE</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="./Asset/images/betterAR.jpg" alt="better">
-    <div class="text">Caption Two</div>
+    <img src="./Asset/images/more srs version.png" alt="better" >
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">WEEZY TECH RESPONSIVE DASHBOARD</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-   <img src="./Asset/images/cute404.png" alt="cute">
-    <div class="text">Caption Three</div>
+   <img src="./Asset/images/Nft collection.png" alt="cute">
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">NFT COLLECTION PAGE</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 3</div>
+   <video src="./Asset/Video/ThreeJS Starter - Brave 2022-12-30 03-58-11.mp4" autoplay loop></video>
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">NFT COLLECTION PAGE</div>
   </div>
 
   <!-- Next and previous buttons -->

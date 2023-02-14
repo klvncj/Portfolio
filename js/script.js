@@ -57,10 +57,33 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+var css = Toastify({
+  text: "CSS (Cascading Style Sheets) \n This is used to style and layout web pages",
+  duration: 5000
+ })
 
-function what(skill){
-  skill = "html 5"
-  Alert(skill);
-}
+ var Tailwind = Toastify({
+  text: "Tailwind CSS.\n This is an open source CSS framework",
+  duration: 5000
+ })
 
-what();
+    var html = Toastify({
+      text: "HTML5 \n This is a markup language used for structuring and presenting content on the World Wide Web.",
+      duration: 5000
+     })
+
+     var node = Toastify({
+      text: "Node. js \n This is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser.",
+      duration: 5000
+     })
+
+     var javascript = Toastify({
+      text: "JavaScript \n This is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else..",
+      duration: 5000
+     })
+
+     var php = Toastify({
+      text: "PHP \n This is a server scripting language, and a powerful tool for making dynamic and interactive Web pages",
+      duration: 5000
+     })
+  

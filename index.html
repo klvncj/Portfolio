@@ -8,6 +8,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
+<link rel="stylesheet" type="text/css" href="./css/Toastify.css">
 <link rel="website icon" type="png" href="./Asset/images/web icon k.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -98,12 +99,12 @@
 <span class=" flex justify-center text-6xl text-[#64ffda] my-20">SKILLS</span>
 <div class="skill" id="skill">
 <ul class="md:flex justify-center gap-5 mt-5">
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='html5' type='logo'color='#fffbfc' size='100px'animation='tada-hover'  data-aos="fade-up" onclick="what(HTML5)"></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='css3' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(CSS)"></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='tailwind-css' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(TAILWIND-CSS)"></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon type='logo' name='nodejs' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(Node)"></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='javascript' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(JS)"></box-icon></li>
-  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"><box-icon name='php' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(PHP)"></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg" onclick="html.showToast();" ><box-icon name='html5' type='logo'color='#fffbfc' size='100px'animation='tada-hover'  data-aos="fade-up" onclick="what(HTML5)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg" onclick="css.showToast()"><box-icon name='css3' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(CSS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg"onclick="Tailwind.showToast()"><box-icon name='tailwind-css' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(TAILWIND-CSS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg" onclick="node.showToast()"><box-icon type='logo' name='nodejs' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(Node)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg" onclick="javascript.showToast()"><box-icon name='javascript' type='logo' color='#fffbfc' size='100px'animation='tada-hover' data-aos="fade-up" onclick="what(JS)"></box-icon></li>
+  <li class="my-1 mx-1 drop-shadow-lg flex  bg-[#0e213e] justify-center md:bg-[#0e213e] p-2 rounded-lg drop-shadow-lg" onclick="php.showToast()"><box-icon name='php' type='logo' color='#fffbfc' size='100px' animation='tada-hover' data-aos="fade-up" onclick="what(PHP)"></li>
 </ul>
 </div>
 
@@ -114,27 +115,27 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
+    <div class="numbertext"></div>
     <img src="./Asset/images/Weezy tech sign up.png" alt="error">
-    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">WEEZY TECH SIGN UP PAGE</div>
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black opacity-25">WEEZY TECH SIGN UP PAGE</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
+    <div class="numbertext"></div>
     <img src="./Asset/images/more srs version.png" alt="better" >
-    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">WEEZY TECH RESPONSIVE DASHBOARD</div>
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black opacity-25">WEEZY TECH RESPONSIVE DASHBOARD</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
+    <div class="numbertext"></div>
    <img src="./Asset/images/Nft collection.png" alt="cute">
-    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">NFT COLLECTION PAGE</div>
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black opacity-25">NFT COLLECTION PAGE</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">4 / 3</div>
+    <div class="numbertext"></div>
    <video src="./Asset/Video/ThreeJS Starter - Brave 2022-12-30 03-58-11.mp4" autoplay loop></video>
-    <div class="font-black bg-gray-200 flex justify-center p-2 text-black">ThreeJS Sphere</div>
+    <div class="font-black bg-gray-200 flex justify-center p-2 text-black opacity-25">ThreeJS Sphere</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -153,15 +154,16 @@
 
 
 <footer class="flex justify-center bg-[#0e213e] p-2 mt-52  ">
-  <p class="flex jusify-center text-white ">Designed by KELVIN &copy;2023</p>
+  <p class="flex jusify-center text-white">Designed by KELVIN &copy;2023</p>
 </footer>
 
 
 
     <script src="./js/aos.js"></script>
-    <script src="./js/script.js"></script>
     <script src="./js/tailwind.js"></script>
+    <script type="text/javascript" src="./js/Toastify.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
